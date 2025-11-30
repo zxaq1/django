@@ -31,7 +31,9 @@ ALLOWED_HOSTS = [
     '.ngrok-free.dev',   # allows any subdomain like girlish-vocally-laurine.ngrok-free.dev
 ]
 
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.ngrok-free.dev',
+]
 
 # Application definition
 
