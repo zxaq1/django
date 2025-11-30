@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-qy+iio*k4*z20czsxrsa3s18jscn@2@qyv2mm+p-rnly$0^(-m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    '.ngrok-free.dev',   # allows any subdomain like girlish-vocally-laurine.ngrok-free.dev
+]
+
 
 
 # Application definition
