@@ -32,7 +32,8 @@ ALLOWED_HOSTS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://*.ngrok-free.dev',
+    'https://girlish-vocally-laurine.ngrok-free.dev',  # exact URL
+    'https://*.ngrok-free.dev',                        # any ngrok-free subdomain
 ]
 
 # Application definition
